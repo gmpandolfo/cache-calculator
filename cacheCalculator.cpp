@@ -92,7 +92,7 @@ int main(int argc, char const *argv[])
 
         // index = log2 (quantidade de conjuntos) // NÃO da quantidade de linhas
         index -= log2(m);
-        tag += m - 1;
+        tag += m - 2;
 
         // RACIOCÍNIO LÓGICO
         // 64 bits
